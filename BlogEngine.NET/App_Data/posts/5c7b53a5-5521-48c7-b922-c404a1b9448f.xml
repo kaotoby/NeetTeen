@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<post>
+  <author>Admin</author>
+  <title>Post two</title>
+  <description>This is a post two. The variables searchTerm and selectCommand are initialized at the top. You're go</description>
+  <content>&lt;pre class="brush:csharp;auto-links:false;toolbar:false" contenteditable="false"&gt;public DataTable ReadCsv(string file) {
+    string str = $"Provider=Microsoft.Jet.OleDb.4.0;Data Source='{Path.GetDirectoryName(file)}';Extended Properties=Text";
+    var dt = new DataTable();
+    using (var conn = new OleDbConnection(str))
+    using (var da = new OleDbDataAdapter($"select * from [{Path.GetFileName(file)}]", conn)) {
+        conn.Open();
+        da.Fill(dt);
+        return dt;
+    }
+}&lt;/pre&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;pre class="brush:csharp;auto-links:false;toolbar:false" contenteditable="false"&gt;private string _prop;
+public string Prop {
+    get { return _prop; }
+    set {
+        if (value &amp;gt; 100) {
+            _prop = value;
+        }
+    }
+}
+
+MyClass is MyClass
+MyEnum&lt;/pre&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;pre class="brush:csharp;auto-links:false;toolbar:false" contenteditable="false"&gt;MyClass MyClass2&lt;/pre&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</content>
+  <ispublished>True</ispublished>
+  <isdeleted>False</isdeleted>
+  <iscommentsenabled>True</iscommentsenabled>
+  <pubDate>2016-02-06 13:54:00</pubDate>
+  <lastModified>2017-03-21 00:36:29</lastModified>
+  <raters>0</raters>
+  <rating>0</rating>
+  <slug>post-two</slug>
+  <tags />
+  <comments />
+  <categories />
+  <notifications />
+</post>

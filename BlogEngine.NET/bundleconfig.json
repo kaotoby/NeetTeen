@@ -1,0 +1,44 @@
+[
+  {
+    "outputFileName": "Custom/Themes/Standard/src/js/custom.min.js",
+    "inputFiles": [
+      "Custom/Themes/Standard/src/js/custom.js"
+    ]
+  },
+  {
+    "outputFileName": "Custom/Themes/Standard/src/css/bootstrap.min.css",
+    "inputFiles": [
+      "Custom/Themes/Standard/src/css/bootstrap.css"
+    ]
+  },
+  {
+    "outputFileName": "Custom/Themes/Standard/src/js/bootstrap.min.js",
+    "inputFiles": [
+      "Custom/Themes/Standard/src/js/bootstrap.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/Auto/blog.min.js",
+    "inputFiles": [
+      "Scripts/Auto/blog.js"
+    ]
+  },
+  {
+    "outputFileName": "Custom/Themes/Standard/src/css/font-awesome.min.css",
+    "inputFiles": [
+      "Custom/Themes/Standard/src/css/font-awesome.css"
+    ]
+  },
+  {
+    "outputFileName": "neet/editors/tinymce/tinymce.min.js",
+    "inputFiles": [
+      "neet/editors/tinymce/tinymce.js"
+    ]
+  },
+  {
+    "outputFileName": "neet/editors/tinymce/skins/lightgray/content.min.css",
+    "inputFiles": [
+      "neet/editors/tinymce/skins/lightgray/content.css"
+    ]
+  }
+]

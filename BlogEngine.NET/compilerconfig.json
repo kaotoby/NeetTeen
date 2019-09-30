@@ -1,0 +1,18 @@
+﻿[
+  {
+    "outputFile": "Custom/Themes/Standard/src/scss/styles.css",
+    "inputFile": "Custom/Themes/Standard/src/scss/styles.scss"
+  },
+  {
+    "outputFile": "Custom/Themes/Standard/src/css/bootstrap.css",
+    "inputFile": "Custom/Themes/Standard/src/css/bootstrap.less"
+  },
+  {
+    "outputFile": "Custom/Themes/Standard/src/less/bootstrap.css",
+    "inputFile": "Custom/Themes/Standard/src/less/bootstrap.less"
+  },
+  {
+    "outputFile": "neet/themes/standard/scss/styles.css",
+    "inputFile": "neet/themes/standard/scss/styles.scss"
+  }
+]
